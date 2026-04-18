@@ -13,17 +13,16 @@
     <body>
         <jsp:include page="../includes/main-header.jsp" />
         <div>
-        <img src="${pageContext.request.contextPath}/assets/img/wine-bg.png" alt="Bem-Vindo">
-        <h1>Quem Somos</h1>
-        <img src="${pageContext.request.contextPath}/assets/img/Family.png" alt="Familia">
-        <p>
-            A Vinheria Agnello nasceu como uma empresa familiar, fundada pelo Sr. Giulio Agnello com o objetivo de compartilhar a paixão pelo mundo dos vinhos e oferecer rótulos selecionados com qualidade e tradição.
-        </p>
-        <P>
-            Hoje, ao lado de sua filha Bianca, a vinheria mantém seus valores de atendimento próximo, confiança e cuidado com cada cliente, proporcionando uma experiência acolhedora para quem aprecia bons vinhos e bons momentos.</P>
-        <img src="${pageContext.request.contextPath}/assets/img/Map.png" alt="Vainheria Agnello">
-        <img src="${pageContext.request.contextPath}/assets/img/Vinhos.png" alt="vinhos">
+            <img src="${pageContext.request.contextPath}/assets/img/wine-bg.png" alt="Bem-Vindo">
+            <h1>Quem Somos</h1>
+            <img src="${pageContext.request.contextPath}/assets/img/Family.png" alt="Familia">
+            <p>
+                A Vinheria Agnello nasceu como uma empresa familiar, fundada pelo Sr. Giulio Agnello com o objetivo de compartilhar a paixão pelo mundo dos vinhos e oferecer rótulos selecionados com qualidade e tradição.
+            </p>
+            <P>
+                Hoje, ao lado de sua filha Bianca, a vinheria mantém seus valores de atendimento próximo, confiança e cuidado com cada cliente, proporcionando uma experiência acolhedora para quem aprecia bons vinhos e bons momentos.</P>
+            <img src="${pageContext.request.contextPath}/assets/img/Map.png" alt="Vainheria Agnello">
+            <img src="${pageContext.request.contextPath}/assets/img/Vinhos.png" alt="vinhos">
         </div>
-        <jsp:include page="../includes/footer.jsp" />
     </body>
 </html>

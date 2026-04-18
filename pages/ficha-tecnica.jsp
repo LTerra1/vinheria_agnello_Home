@@ -7,22 +7,14 @@
     <title>Vinheria Agnello</title>
 
     <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/style.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/navbar.css">
-
 
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- TESTE HARMONIZAÇÔES-->
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,400..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Libre+Bodoni:wght@400..700&display=swap" rel="stylesheet">
-    <!-- TESTE HARMONIZAÇÔES-->
-
 </head>
 <body>
 <jsp:include page="../includes/header.jsp" />
-<jsp:include page="../includes/sidebar.jsp" />
 <header class="header-interno">
     <a href="home.jsp" class="back-btn"><i class="fa-solid fa-arrow-left"></i></a>
 </header>
@@ -135,7 +127,5 @@
             </ul>
         </section>
     </div>
-
-<script src="${pageContext.request.contextPath}/assets/js/sidebar.js"></script>
 </body>
 </html>

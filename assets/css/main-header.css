@@ -1,27 +1,59 @@
-#barra{
+/* HEADER PRINCIPAL */
+#header {
     position: relative;
-    background-size: cover;
-    height: 153px;
-    background: linear-gradient(to right, #4b1248, #7B2E6F 26%, #4b1248);
+    width: 100%;
+    max-width: 393px; /* igual mobile */
+    height: 120px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    /* fundo roxo degradê */
+    background: linear-gradient(
+            180deg,
+            #4b1248 0%,
+            #7B2E6F 50%,
+            #9C3F86 75%,
+            #7B2E6F 88%,
+            #4b1248 100%
+    );
 }
-.circle{
+
+/* SOMBRA / LUZ DA LOGO */
+#sombra-da-logo {
     position: absolute;
-    padding-top: 12px;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
 }
-.menu{
-    position: absolute;
+
+.circle {
+    width: 220px;
+    opacity: 0.4; /* deixa suave igual imagem */
 }
-#icon{
-    margin-top: 62px;
-    margin-left: 27px;
-    margin-bottom: -86px;
+
+/* MENU (linha principal) */
+.menu {
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 20px;
+    height: 100%;
 }
-#logo{
-    margin-top: 11px;
-    margin-left: 105px;
+
+/* ÍCONE MENU */
+#icon {
+    width: 26px;
+    cursor: pointer;
 }
-#cart{
-    margin-bottom: 0px;
-    margin-left: 330px;
-    margin-top: -77px;
+
+/* CARRINHO */
+#cart {
+    width: 26px;
+    cursor: pointer;
 }
+

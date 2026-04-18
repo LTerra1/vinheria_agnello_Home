@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
-h1{
+body {
+  margin: 0;
+  background-color: #FAF0F0;
+}
+
+/* CONTAINER GLOBAL (usar em header e páginas) */
+.container {
+  width: 100%;
+  max-width: 393px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* textos */
+h1 {
   text-align: center;
   font-family: 'Libre Bodoni';
   font-style: italic;
@@ -7,16 +21,17 @@ h1{
   color: transparent;
   background-clip: text;
 }
-p{
+
+p {
   text-align: center;
   font-family: 'Libre Bodoni';
   font-style: italic;
   color: rgb(151,58,146);
 }
-img{
+
+/* imagem centralizada */
+img {
   display: block;
-  margin: auto;
-}
-body{
-  margin: 0;
+  margin: 20px auto;
+  max-width: 100%;
 }
